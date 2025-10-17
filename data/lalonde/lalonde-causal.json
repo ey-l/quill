@@ -1,0 +1,18 @@
+{
+    "dataset": "lalonde",
+    "data_path": "data/lalonde/input/lalonde.csv",
+    "min_num_bins": 2,
+    "max_num_bins": 20,
+    "features": ["age", "educ", "black", "hisp", "married", "nodegr", "treat","u74","u75"],
+    "target_viz": "re78",
+    "target": "re78",
+    "attributes": {
+        "age": [0, 18, 35, 50, 65, 100],
+        "educ": [0, 11, 12, 15, 16]
+    },
+    "treatment": "treat",
+    "value_ranges": {
+        "age": [17, 55],
+        "educ": [3, 16]
+    }
+}

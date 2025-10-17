@@ -1,0 +1,23 @@
+{
+    "dataset": "taxi",
+    "data_path": "data/taxi/input/taxi.csv",
+    "min_num_bins": 2,
+    "max_num_bins": 10,
+    "features": [
+        "passenger_count", 
+        "trip_distance", 
+        "payment_type_Card", "payment_type_Cash",
+        "duration"
+    ],
+    "target": "fare_percentile",
+    "attributes": {
+        "passenger_count": [0, 1, 2, 6],
+        "trip_distance": [0, 0.5, 1.5, 3.0, 5.0, 10.0],
+        "duration": [0, 3, 8, 15, 25, 30]
+    },
+    "value_ranges": {
+        "passenger_count": [0, 6],
+        "trip_distance": [0, 10.0],
+        "duration": [0, 30]
+    }
+}

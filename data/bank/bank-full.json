@@ -1,0 +1,53 @@
+{
+    "dataset": "bank",
+    "data_path": "data/bank/input/bank.csv",
+    "min_num_bins": 2,
+    "max_num_bins": 20,
+    "features": [
+        "Current Loan Amount", 
+        "Term",
+        "Credit Score", 
+        "Annual Income", 
+        "Years in current job",
+        "Home Ownership", 
+        "Purpose", 
+        "Monthly Debt", 
+        "Years of Credit History",
+        "Months since last delinquent", 
+        "Number of Open Accounts",
+        "Number of Credit Problems", 
+        "Current Credit Balance",
+        "Maximum Open Credit", 
+        "Bankruptcies", 
+        "Tax Liens"
+    ],
+    "target": "Loan Status",
+    "attributes": {
+        "Current Loan Amount": [0, 100000, 500000, 1000000, 100000000],
+        "Credit Score": [0, 600, 650, 700, 750, 850, 8000],
+        "Annual Income": [0, 250000, 1000000, 5000000, 200000000],
+        "Monthly Debt": [0, 10000, 25000, 50000, 500000],
+        "Years of Credit History": [0, 5, 10, 20, 35, 80],
+        "Months since last delinquent": [0, 12, 36, 60, 180],
+        "Number of Open Accounts": [0, 5, 15, 30, 80],
+        "Number of Credit Problems": [0, 1, 2, 5, 20],
+        "Current Credit Balance": [0, 100000, 500000, 1000000, 50000000],
+        "Maximum Open Credit": [0, 250000, 1000000, 5000000, 2000000000],
+        "Bankruptcies": [0, 1, 2, 8],
+        "Tax Liens": [0, 1, 2, 20]
+    },
+    "value_ranges": {
+        "Current Loan Amount": [0, 100000000],
+        "Credit Score": [0, 8000],
+        "Annual Income": [0, 200000000],
+        "Monthly Debt": [0, 500000],
+        "Years of Credit History": [0, 80],
+        "Months since last delinquent": [0, 180],
+        "Number of Open Accounts": [0, 80],
+        "Number of Credit Problems": [0, 20],
+        "Current Credit Balance": [0, 50000000],
+        "Maximum Open Credit": [0, 2000000000],
+        "Bankruptcies": [0, 8],
+        "Tax Liens": [0, 20]
+    }
+}

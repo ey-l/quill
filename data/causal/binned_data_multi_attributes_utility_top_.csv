@@ -1,0 +1,65 @@
+method,ATE,utility
+"('Equal width_10', 'Equal width_10')",0.48667364478875363,0.9716886499727029
+"('Equal width_10', 'KMeansDiscretizer_9')",0.48440685472762324,0.9694885303451637
+"('Equal width_10', 'KMeansDiscretizer_10')",0.4903968139569628,0.9753131543299142
+"('Equal width_10', 'KBinsDiscretizer_8')",0.4853723737947129,0.9704250420437339
+"('Equal width_10', 'KBinsDiscretizer (quantile)_9')",0.4777213147872632,0.9630285941957198
+"('Equal width_10', 'Equal frequency_9')",0.477702317775635,0.9630102997040886
+"('Equal width_10', 'Equal width_9')",0.4844834379660399,0.9695627797595193
+"('Equal width_10', 'KBinsDiscretizer_10')",0.48667364478875363,0.9716886499727029
+"('KMeansDiscretizer_9', 'Equal width_10')",0.48293896771448663,0.9680664746859432
+"('KMeansDiscretizer_9', 'KMeansDiscretizer_9')",0.48380529832849595,0.9689055036951418
+"('KMeansDiscretizer_9', 'KMeansDiscretizer_10')",0.49610777007830786,0.9808990602085207
+"('KMeansDiscretizer_9', 'KBinsDiscretizer_8')",0.48232163094033176,0.9674690360806777
+"('KMeansDiscretizer_9', 'KBinsDiscretizer (quantile)_9')",0.4860771420052523,0.9711092078249057
+"('KMeansDiscretizer_9', 'Equal frequency_9')",0.4856982038187234,0.9707412871767653
+"('KMeansDiscretizer_9', 'Equal width_9')",0.48952911792088516,0.9744672460206847
+"('KMeansDiscretizer_9', 'KBinsDiscretizer_10')",0.48136085110487503,0.9665399577307239
+"('KMeansDiscretizer_10', 'Equal width_10')",0.4798224062341254,0.9650541325135265
+"('KMeansDiscretizer_10', 'KMeansDiscretizer_9')",0.5016305403406023,0.9863313271422385
+"('KMeansDiscretizer_10', 'KMeansDiscretizer_10')",0.47414364244216056,0.959589349340778
+"('KMeansDiscretizer_10', 'KBinsDiscretizer_8')",0.49817408545551634,0.9829280025155556
+"('KMeansDiscretizer_10', 'KBinsDiscretizer (quantile)_9')",0.4890112248733094,0.9739627068688167
+"('KMeansDiscretizer_10', 'Equal frequency_9')",0.4922665368456838,0.9771384255021384
+"('KMeansDiscretizer_10', 'Equal width_9')",0.49796208181099577,0.9827196402842775
+"('KMeansDiscretizer_10', 'KBinsDiscretizer_10')",0.47321881777568153,0.9587023076830437
+"('KBinsDiscretizer_8', 'Equal width_10')",0.483549304914618,0.9686575020122788
+"('KBinsDiscretizer_8', 'KMeansDiscretizer_9')",0.4842157546978072,0.969303278759464
+"('KBinsDiscretizer_8', 'KMeansDiscretizer_10')",0.48447662440835915,0.9695561736101
+"('KBinsDiscretizer_8', 'KBinsDiscretizer_8')",0.4823134212442244,0.9674610934865013
+"('KBinsDiscretizer_8', 'KBinsDiscretizer (quantile)_9')",0.4748258122033917,0.9602441755040075
+"('KBinsDiscretizer_8', 'Equal frequency_9')",0.47480996075396664,0.9602289543626626
+"('KBinsDiscretizer_8', 'Equal width_9')",0.4810976776164928,0.9662856235068674
+"('KBinsDiscretizer_8', 'KBinsDiscretizer_10')",0.483549304914618,0.9686575020122788
+"('KBinsDiscretizer (quantile)_9', 'Equal width_10')",0.4898348875315972,0.9747652540497297
+"('KBinsDiscretizer (quantile)_9', 'KMeansDiscretizer_9')",0.4896327286464919,0.9745682165098474
+"('KBinsDiscretizer (quantile)_9', 'KMeansDiscretizer_10')",0.4891436346778524,0.9740916776187728
+"('KBinsDiscretizer (quantile)_9', 'KBinsDiscretizer_8')",0.4883788351206575,0.9733469775445054
+"('KBinsDiscretizer (quantile)_9', 'KBinsDiscretizer (quantile)_9')",0.48069653661358824,0.96589808445686
+"('KBinsDiscretizer (quantile)_9', 'Equal frequency_9')",0.4806836583958254,0.9658856454910877
+"('KBinsDiscretizer (quantile)_9', 'Equal width_9')",0.4872691362713564,0.9722674546070141
+"('KBinsDiscretizer (quantile)_9', 'KBinsDiscretizer_10')",0.4898348875315972,0.9747652540497297
+"('Equal frequency_9', 'Equal width_10')",0.48993098308861427,0.9748589291605874
+"('Equal frequency_9', 'KMeansDiscretizer_9')",0.49071628073956974,0.9756247842604175
+"('Equal frequency_9', 'KMeansDiscretizer_10')",0.49223825997770954,0.977110795478535
+"('Equal frequency_9', 'KBinsDiscretizer_8')",0.4884758960329214,0.9734414560751071
+"('Equal frequency_9', 'KBinsDiscretizer (quantile)_9')",0.4808071662030202,0.9660049472763625
+"('Equal frequency_9', 'Equal frequency_9')",0.4807942876838256,0.9659925066432156
+"('Equal frequency_9', 'Equal width_9')",0.48737892277115513,0.9723742023073447
+"('Equal frequency_9', 'KBinsDiscretizer_10')",0.48993098308861427,0.9748589291605874
+"('Equal width_9', 'Equal width_10')",0.48890201115585974,0.9738563425892671
+"('Equal width_9', 'KMeansDiscretizer_9')",0.48776084823574895,0.9727456477040327
+"('Equal width_9', 'KMeansDiscretizer_10')",0.4908679603424382,0.9757727778637645
+"('Equal width_9', 'KBinsDiscretizer_8')",0.4874630339266375,0.9724559932647797
+"('Equal width_9', 'KBinsDiscretizer (quantile)_9')",0.4798014817436127,0.9650339394587518
+"('Equal width_9', 'Equal frequency_9')",0.47978850637299875,0.9650214178669686
+"('Equal width_9', 'Equal width_9')",0.48641997681220817,0.9714421949392286
+"('Equal width_9', 'KBinsDiscretizer_10')",0.48890201115585974,0.9738563425892671
+"('KBinsDiscretizer_10', 'Equal width_10')",0.48667364478875363,0.9716886499727029
+"('KBinsDiscretizer_10', 'KMeansDiscretizer_9')",0.4893731089901734,0.9743152322856777
+"('KBinsDiscretizer_10', 'KMeansDiscretizer_10')",0.48610458274165325,0.9711358561423172
+"('KBinsDiscretizer_10', 'KBinsDiscretizer_8')",0.4853723737947129,0.9704250420437339
+"('KBinsDiscretizer_10', 'KBinsDiscretizer (quantile)_9')",0.4777213147872632,0.9630285941957198
+"('KBinsDiscretizer_10', 'Equal frequency_9')",0.477702317775635,0.9630102997040886
+"('KBinsDiscretizer_10', 'Equal width_9')",0.4844834379660399,0.9695627797595193
+"('KBinsDiscretizer_10', 'KBinsDiscretizer_10')",0.48667364478875363,0.9716886499727029

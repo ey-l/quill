@@ -1,0 +1,47 @@
+{
+    "dataset": "songs",
+    "data_path": "data/songs/input/songs.csv",
+    "min_num_bins": 2,
+    "max_num_bins": 10,
+    "features": [
+        "song_name", 
+        "song_duration_ms", 
+        "acousticness",
+        "danceability", 
+        "energy", 
+        "instrumentalness", 
+        "key", 
+        "liveness",
+        "loudness", 
+        "speechiness", 
+        "tempo", 
+        "audio_valence"
+    ],
+    "target": "song_popularity",
+    "attributes": {
+        "song_duration_ms": [0, 90000, 180000, 300000, 600000, 1800000],
+        "acousticness": [0, 0.1, 0.3, 0.6, 0.9, 1.0],
+        "danceability": [0, 0.3, 0.5, 0.7, 0.9, 1.0],
+        "energy": [0, 0.2, 0.4, 0.7, 0.9, 1.0],
+        "instrumentalness": [0, 0.0001, 0.01, 0.05, 0.25, 0.75, 1.0],
+        "key": [0, 3, 7, 11],
+        "liveness": [0, 0.2, 0.5, 1.0],
+        "loudness": [-60, -20, -10, -5, 0, 10],
+        "speechiness": [0, 0.05, 0.1, 0.2, 0.35, 0.6, 1.0],
+        "tempo": [0, 60, 90, 120, 150, 250],
+        "audio_valence": [0, 0.3, 0.6, 0.85, 1.0]
+    },
+    "value_ranges": {
+        "song_duration_ms": [0, 1800000],
+        "acousticness": [0, 1.0],
+        "danceability": [0, 1.0],
+        "energy": [0, 1.0],
+        "instrumentalness": [0, 1.0],
+        "key": [0, 12],
+        "liveness": [0, 1.0],
+        "loudness": [-60, 10],
+        "speechiness": [0, 1.0],
+        "tempo": [0, 250],
+        "audio_valence": [0, 1.0]
+    }
+}

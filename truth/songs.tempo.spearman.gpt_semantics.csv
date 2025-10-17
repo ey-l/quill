@@ -1,0 +1,3 @@
+tempo_ID,tempo_bins,utility,raw_utility,l2_norm,KLDiv,gpt_semantics,Estimated,Explored
+0,[  0.  60.  90. 120. 150. 250.],0.6,0.6,1.0,1.0,4.0,1,1
+1,[  0. 125. 250.],1.0,-1.0,0.8433647423766304,0.8110899386910037,2.0,1,1

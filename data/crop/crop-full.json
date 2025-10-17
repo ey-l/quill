@@ -1,0 +1,34 @@
+{
+    "dataset": "crop",
+    "data_path": "data/crop/input/crop.csv",
+    "min_num_bins": 2,
+    "max_num_bins": 20,
+    "features": [
+        "N",
+        "P",
+        "K",
+        "temperature",
+        "humidity",
+        "ph",
+        "rainfall"
+    ],
+    "target": "label",
+    "attributes": {
+        "N": [0, 40, 80, 120, 160],
+        "P": [0, 20, 40, 60, 80, 150],
+        "K": [0, 20, 35, 60, 100, 210],
+        "temperature": [0, 15, 20, 27, 35, 45],
+        "humidity": [0, 30, 50, 70, 85, 100],
+        "ph": [0, 5.5, 6.5, 7.5, 8.5, 10],
+        "rainfall": [0, 50, 100, 150, 200, 300]
+    },
+    "value_ranges": {
+        "N": [0, 140],
+        "P": [0, 150],
+        "K": [0, 210],
+        "temperature": [0, 45],
+        "humidity": [0, 100],
+        "ph": [0, 10],
+        "rainfall": [0, 300]
+    }
+}

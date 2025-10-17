@@ -1,0 +1,27 @@
+{
+    "dataset": "titanic",
+    "data_path": "data/titanic/input/titanic.csv",
+    "min_num_bins": 2,
+    "max_num_bins": 20,
+    "target": "Survived",
+    "target_viz": "Survived",
+    "features": ["Age", "Fare", "SibSp", "Pclass", "Parch"],
+    "attributes": {
+        "Age": [0, 18, 35, 50, 65, 100],
+        "Fare": [0, 10, 20, 30, 40, 50, 100, 600],
+        "SibSp": [0, 1, 2, 3, 4, 5, 6, 7, 8]
+    },
+    "attribute_viz": "Fare",
+    "value_ranges": {
+        "Age": [0, 100],
+        "Fare": [0, 600],
+        "SibSp": [0, 10]
+    },
+    "t_list": [
+        {
+            "Age": 0.35,
+            "Fare": 0.35,
+            "SibSp": 0.85
+        }
+    ]
+}

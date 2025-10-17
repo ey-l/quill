@@ -1,0 +1,28 @@
+{
+    "dataset": "pima",
+    "data_path": "data/pima/input/diabetes.csv",
+    "min_num_bins": 2,
+    "max_num_bins": 20,
+    "features": ["Pregnancies", "Glucose", "BloodPressure", "SkinThickness", "Insulin", "BMI", "DiabetesPedigreeFunction", "Age"],
+    "target": "Outcome",
+    "target_viz": "Outcome",
+    "attribute_viz": "Age",
+    "attributes": {
+        "BMI": [0, 18.5, 25, 30, 68],
+        "Glucose": [0, 140, 200],
+        "Age": [0, 18, 35, 45, 65, 100]
+    },
+    "treatment": "Glucose",
+    "value_ranges": {
+        "BMI": [0, 68],
+        "Glucose": [0, 200],
+        "Age": [0, 100]
+    },
+    "t_list": [
+        {
+            "BMI": 0.52,
+            "Glucose": 0.48,
+            "Age": 0.56
+        }
+    ]
+}

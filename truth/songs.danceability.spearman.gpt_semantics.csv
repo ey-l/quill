@@ -1,0 +1,2 @@
+danceability_ID,danceability_bins,utility,raw_utility,l2_norm,KLDiv,gpt_semantics,Estimated,Explored
+0,[0.  0.3 0.5 0.7 0.9 1. ],1.0,1.0,1.0,1.0,4.0,1,1
