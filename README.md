@@ -4,6 +4,13 @@ Quill is a research codebase for **interpretable attribute discretization**—tu
 
 > 🔎 Why this matters: good bins make models easier to explain, visualizations clearer, and causal/statistical analyses more robust—without giving up performance.
 
+
+<p align="center">
+  <img src="./quill-overview.png" width="450"/>
+  <br>
+  <em>Figure 1: Quill overview.</em>
+</p>
+
 ---
 
 ## Features
