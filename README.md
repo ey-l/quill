@@ -6,7 +6,7 @@ Quill is a research codebase for **interpretable attribute discretization**—tu
 
 
 <p align="center">
-  <img src="./quill-overview.png" width="450"/>
+  <img src="./quill-overview.png" width="500"/>
   <br>
   <em>Figure 1: Quill overview.</em>
 </p>
@@ -31,9 +31,8 @@ quill/
 ├─ prompts/                  # LLM prompts used in experiments
 ├─ scripts/                  # End-to-end or helper scripts
 ├─ truth/                    # Ground-truth partitions or labels
-├─ evaluate_UCB.py           # UCB-based evaluator
-├─ evaluate_MCC.py           # MCC-based evaluator
-├─ evaluate_MCC_single.py    # Single-run MCC evaluator
+├─ evaluate_MCC.py           # MCC-based search (Quill) evaluator
+├─ evaluate_MCC_single.py    # UCB-guided MCC variant (Quill) evaluator
 ├─ requirements_cleaned.txt  # Python dependencies
 └─ full_technical_report.pdf # Technical write-up
 ```
