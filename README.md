@@ -16,7 +16,8 @@ Quill is a research codebase for **interpretable attribute discretization**—tu
 ## Features
 
 - 📊 **Utility–Semantics trade-off**: evaluate partitions for both task performance and human-meaningfulness.
-- 🧪 **Baselines included**: Quill evaluators (see `evaluate_MCC.py`, `evaluate_MCC_single.py`).
+- 🧪 **Quill evaluation**: Quill evaluator scripts (see `evaluate_MCC.py`, `evaluate_MCC_single.py`).
+- 🧪 **Baseline implementation** baselines compared in our experiments (`./baselines`).
 - 📁 **Organized repo layout**: data inputs, ground-truths, prompts, and scripts.
 - 📜 **Technical report**: a PDF of the full version of the paper (`full_technical_report.pdf`).
 
