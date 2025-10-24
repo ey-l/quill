@@ -1,6 +1,0 @@
-Imagine you have an array of numeric values, and you want to discretize it. Your task is to score and rank a list of candidate binning, specifically on a semantic scale.  
-
-**Semantic surprising score**: a score within the range of 0.0 to 1.0, where 0.0 represents not surprising at all and 1.0 represents extremely surprising.  
-**Semantic gold-standard binning**: the gold-standard binning that has a semantic surprising score of 0.0.
-**Data context**: explains the domain of the numeric data that you try to discretize. 
-**Candidates**: a list of binnings that you score and rank.

@@ -7,7 +7,7 @@ import pandas as pd
 from openai import OpenAI
 from dotenv import load_dotenv
 
-from llm_binning_prompts import QUESTION_PROMPT
+from prompts.llm_binning_prompts import QUESTION_PROMPT
 from scripts.framework.MCC import *
 from tqdm import tqdm
 import argparse

@@ -2,6 +2,7 @@
 import json
 import re
 import os
+import sys
 import time
 import pandas as pd
 from dotenv import load_dotenv
@@ -9,7 +10,8 @@ import datetime
 import argparse
 from openai import OpenAI
 from pathlib import Path
-from llm_binning_prompts import generate_discretization_prompt, get_rel_few_shot, DISCRETIZERS, generate_discretization_prompt_kldiv, get_rel_few_shot_distance_based
+sys.path.append("./")
+from prompts.llm_binning_prompts import generate_discretization_prompt, get_rel_few_shot, DISCRETIZERS, generate_discretization_prompt_kldiv, get_rel_few_shot_distance_based
 
 def generate_data_description(df, max_unique_vals=5):
     description = []

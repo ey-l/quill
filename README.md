@@ -16,9 +16,9 @@ Quill is a research codebase for **interpretable attribute discretization**—tu
 ## Features
 
 - 📊 **Utility–Semantics trade-off**: evaluate partitions for both task performance and human-meaningfulness.
-- 🧪 **Baselines included**: UCB- and MCC-style evaluators (see `evaluate_MCC.py`, `evaluate_MCC_single.py`).
-- 📁 **Organized repo layout**: data inputs, ground-truths, prompts, and scripts for repeatable runs.
-- 📜 **Technical report**: a PDF with background and methods (`full_technical_report.pdf`).
+- 🧪 **Baselines included**: Quill evaluators (see `evaluate_MCC.py`, `evaluate_MCC_single.py`).
+- 📁 **Organized repo layout**: data inputs, ground-truths, prompts, and scripts.
+- 📜 **Technical report**: a PDF of the full version of the paper (`full_technical_report.pdf`).
 
 ---
 
@@ -26,15 +26,15 @@ Quill is a research codebase for **interpretable attribute discretization**—tu
 
 ```
 quill/
-├─ baselines/                # Reference/benchmark implementations
-├─ data/                     # Input datasets
+├─ baselines/                # Baseline implementations
+├─ data/                     # Benchmark datasets
 ├─ prompts/                  # LLM prompts used in experiments
-├─ scripts/                  # End-to-end or helper scripts
-├─ truth/                    # Ground-truth partitions or labels
+├─ scripts/                  # End-to-end framework and helper scripts
+├─ truth/                    # Benchmark ground-truth partitions
 ├─ evaluate_MCC.py           # MCC-based search (Quill) evaluator
 ├─ evaluate_MCC_single.py    # UCB-guided MCC variant (Quill) evaluator
-├─ requirements_cleaned.txt  # Python dependencies
-└─ full_technical_report.pdf # Technical write-up
+├─ requirements.txt  # Python dependencies
+└─ full_technical_report.pdf # Full version write-up
 ```
 
 ---
@@ -45,11 +45,11 @@ quill/
 
 ```bash
 # (Optional) create an isolated environment
-conda create -y -n quill python=3.10
+conda create -y -n quill python=3.9
 conda activate quill
 
 # Install dependencies
-pip install -r requirements_cleaned.txt
+pip install -r requirements.txt
 ```
 
 ### 2) Provide Data
